@@ -10,7 +10,7 @@ import org.aspectj.lang.annotation.Pointcut;
 @Aspect
 public class BuriedPointAspect {
 
-    @Pointcut("execution(@com.zl.zaspectj.annotation.annotation.BuriedPointAnnotation * *(..))")
+    @Pointcut("execution(@com.zl.zaspectj.annotation.BuriedPointAnnotation * *(..))")
     public void onclickTask() {
     }
 
